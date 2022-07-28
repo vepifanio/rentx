@@ -1,4 +1,6 @@
-# Cadastro de carro
+# RENTX - API para aluguel de carros
+
+## Cadastro de carro
 
 **RF**
 Deve ser possível cadastrar um novo carro.
@@ -8,7 +10,7 @@ Não deve ser possível cadastrar um carro com uma placa já existente.
 O carro deve ser cadastrado, por padrão, com disponibilidade.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-# Listagem de carros
+## Listagem de carros
 
 **RF**
 Deve ser possível listar todos os carros disponíveis.
@@ -19,7 +21,7 @@ Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 **RN**
 O usuário não precisa estar logado no sistema.
 
-# Cadastro de Especificação no Carro
+## Cadastro de Especificação no Carro
 
 **RF**
 Deve ser possível cadastrar uma especificação para um carro.
@@ -29,7 +31,7 @@ Não deve ser possível cadastrar uma especificação para um carro não cadastr
 Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-# Cadastro de imagens do carro
+## Cadastro de imagens do carro
 
 **RF**
 Deve ser possível cadastrar a imagem do carro.
@@ -41,7 +43,7 @@ Utilizar o multer para o upload dos arquivos.
 O usuário deve ser capaz de cadastrar mais de uma imagem para o mesmo carro.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-# Aluguel de carro
+## Aluguel de carro
 
 **RF**
 Deve ser possível cadastrar um aluguel.
@@ -53,7 +55,7 @@ Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para
 O usuário deve estar logado na aplicação.
 Ao realizar um aluguel, o status do carro deverá ser alterado para indisponível.
 
-# Devolução de carro
+## Devolução de carro
 
 **RF**
 Deve ser possível realizar a devolução de um carro.
@@ -66,7 +68,7 @@ Ao realizar a devolução, deverá ser calculado o total do aluguel.
 Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcial ao número de dias de atraso.
 Caso haja multa, deverá ser somado ao total do aluguel.
 
-# Listagem de Aluguéis para o usuário
+## Listagem de Aluguéis para o usuário
 
 **RF**
 Deve ser possível realizar a listagem de todos os alugueis para o usuário.
@@ -74,7 +76,7 @@ Deve ser possível realizar a listagem de todos os alugueis para o usuário.
 **RN**
 O usuário deve estar logado na aplicação.
 
-# Recuperação de senha
+## Recuperação de senha
 
 **RF**
 Deve ser possível para o usuário recuperar a senha informando o email.
